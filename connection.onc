@@ -1,0 +1,23 @@
+{
+  "Type": "UnencryptedConfiguration",
+  "NetworkConfigurations": [
+    {
+      "GUID": "{a1b2c3d4-e5f6-7890-abcd-1234567890ab}",
+      "Name": "Vpn to smwh",
+      "Type": "VPN",
+      "VPN": {
+        "Host": "219.100.37.1",
+        "Type": "L2TP-IPsec",
+        "IPsec": {
+          "AuthenticationType": "PSK",
+          "IKEVersion": 1,
+          "PSK": "vpn"
+        },
+        "L2TP": {
+          "Password": "vpn",
+          "Username": "vpn"
+        }
+      }
+    }
+  ]
+}
