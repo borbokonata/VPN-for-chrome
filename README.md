@@ -1,0 +1,1 @@
+This vpn conencts to somewhere in Asia i think, dont expect it to work.
